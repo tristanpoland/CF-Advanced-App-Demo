@@ -1,0 +1,9 @@
+---
+applications:
+- name: frontend-app
+  memory: 128M
+  instances: 1
+  buildpacks:
+    - nodejs_buildpack
+  routes:
+    - route: frontend-app.((your-domain))

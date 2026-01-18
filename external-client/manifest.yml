@@ -1,0 +1,9 @@
+---
+applications:
+- name: external-client
+  memory: 128M
+  instances: 1
+  buildpacks:
+    - nodejs_buildpack
+  routes:
+    - route: external-client.((your-domain))

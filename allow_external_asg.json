@@ -1,0 +1,14 @@
+[
+  {
+    "protocol": "tcp",
+    "destination": "0.0.0.0/0",
+    "ports": "443",
+    "description": "Allow HTTPS to all external services"
+  },
+  {
+    "protocol": "tcp",
+    "destination": "0.0.0.0/0",
+    "ports": "80",
+    "description": "Allow HTTP to all external services"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "protocol": "tcp",
+    "destination": "10.0.0.0/8",
+    "ports": "1-65535",
+    "description": "Allow traffic to private network 10.x.x.x"
+  },
+  {
+    "protocol": "tcp",
+    "destination": "172.16.0.0/12",
+    "ports": "1-65535",
+    "description": "Allow traffic to private network 172.16.x.x"
+  },
+  {
+    "protocol": "tcp",
+    "destination": "192.168.0.0/16",
+    "ports": "1-65535",
+    "description": "Allow traffic to private network 192.168.x.x"
+  }
+]
