@@ -5,5 +5,5 @@ applications:
   instances: 1
   buildpacks:
     - nodejs_buildpack
-  routes:
-    - route: backend-app.apps.internal
+#  routes:
+#    - route: backend-app.apps.internal

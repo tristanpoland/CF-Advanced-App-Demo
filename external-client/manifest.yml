@@ -5,5 +5,5 @@ applications:
   instances: 1
   buildpacks:
     - nodejs_buildpack
-  routes:
-    - route: external-client.((your-domain))
+#  routes:
+#    - route: external-client.((your-domain))
